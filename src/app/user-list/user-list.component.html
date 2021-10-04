@@ -1,0 +1,29 @@
+<div class="l1">
+<table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">User Name</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email Id</th>
+        <th scope="col">Password</th>
+        <th scope="col">Gender</th>
+        <th scope="col">Age</th>
+        <th scope="col">Mobile Number</th>
+        <th scope="col">Address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor= "let user of userData">
+        <td>{{user.username}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.password}}</td>
+        <td>{{user.gender}}</td>
+        <td>{{user.age}}</td>
+        <td>{{user.mobileNumber}}</td>
+        <td>{{user.address}}</td>
+      </tr>
+      
+    </tbody>
+  </table></div>
+  

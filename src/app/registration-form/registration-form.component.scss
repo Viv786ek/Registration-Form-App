@@ -1,0 +1,32 @@
+input{
+    border:none;
+    background-color: rgba(255,255,255,0);
+    border-bottom: solid black;
+    size: 3px;
+    margin-left: 10px;
+    width: 80%;
+}
+
+.l1{
+    padding-top: 0%;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(251,194,235,1), rgba(179,202,243,1))
+}
+
+label{
+    color: gray;
+}
+
+.form-group{
+    margin-top: 30px;
+}
+
+form{
+    padding: 12px;
+}
+
+#submitButton{
+    margin: 25px;
+    width: 40%;
+}
